@@ -25,6 +25,16 @@ The short version: the **watch app** collects nothing. The **phone and tablet ap
 - **After installing from a challenge.** On Android, the Play Store link carries the challenge (day, score and name, if any) as the install "referrer", and the game reads it once on its first launch through Google Play's Install Referrer service so the challenge can open. This happens between Google Play and the app on your phone; we don't receive it.
 - Challenges never unlock anything and are not linked to purchases.
 
+## Android phone and tablet app only: camera selfies
+
+The Android phone and tablet app lets you take a selfie with the game's quokka (from the Quokka selfies album, or after meeting a quokka in a level). The iPhone and iPad app and the watch app have no camera feature and never use the camera.
+
+- **Camera permission.** The app asks to use the camera only when you open the selfie camera, and explains why first. You can say no and keep playing; the rest of the game doesn't need it. You can turn it off again at any time in your phone's settings.
+- **Everything happens on your phone.** The live picture, the filters (Golden Hour, Beach Day, Night Glow), the cartoon characters and the frame are all drawn on your device. No photo, video or camera image is uploaded by the game, and we never receive any.
+- **Placing the quokka next to your face.** If "By my face" is on, the app uses Android's built-in on-device face detector to find where a face is in the live picture, only to put the quokka beside it. It only works out a position and size on the screen, in memory, while the camera is open. No face data, face template or biometric information is stored, sent or used to identify anyone, and no extra software or model is downloaded for it.
+- **Nothing is kept unless you choose.** A photo you take is held in memory until you leave the screen. It's saved only if you tap "Save" (into the app's private album on your phone, which you can delete from the album at any time and which is left out of the app's device backup) or "Save to gallery" (into your phone's Pictures/Kangaroo Jump folder, managed by you like any other photo). Uninstalling the app deletes its private album.
+- **Sharing is up to you.** "Share" opens the system share sheet; the picture goes only to the app you pick, under that app's own policy. If the "Instagram Stories" button is shown, it opens Instagram's own story editor with the picture; nothing is posted until you post it there.
+
 ## Phone and tablet apps: ads
 
 The phone and tablet versions are free and show ads from Google AdMob: a banner on the menus, a full-screen ad between some levels, and optional video ads you can choose to watch to continue a level.
@@ -47,7 +57,11 @@ Google handles this information as described in "How Google uses information fro
 
 ## Children
 
-The game is not directed at children under 13, and we don't knowingly collect information from anyone. If you believe a child under 13 is using the phone app, you can turn off ad personalization on the device as described above or contact us.
+The game is not directed at children under 13, and we don't knowingly collect information from anyone. On Android, selfies taken with the camera feature stay on the device and no face data is ever stored. If you believe a child under 13 is using the phone app, you can turn off ad personalization on the device as described above or contact us.
+
+## How long information is kept
+
+We (As Is) don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
 
 ## Your rights
 
