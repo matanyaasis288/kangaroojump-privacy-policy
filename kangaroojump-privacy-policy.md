@@ -9,7 +9,7 @@ The short version: the **watch app** collects nothing. The **phone and tablet ap
 ## All versions
 
 - **Your game progress.** Levels you've finished, scores, coins, boomerangs and settings are saved on your device. If device backup is on (Android backup with your Google account, or iCloud backup on iPhone and iPad), it may include this small file. That backup is handled by Google or Apple under your account, not by us.
-- **No account and no sign-in.** We don't ask for your email or any other personal details. The only things you can type in are an optional display name for challenges and a racer name for online races (see below).
+- **Accounts are optional.** You can play everything without an account. On the phone and tablet apps you can choose to sign in with Google or Apple to save your progress (see "Saving your progress" below). The only things you can type in are an optional display name for challenges and a racer name for online races.
 - **Purchases.** The optional one-time purchase ("Full game" on the watch, which lifts the free-level limit there, and "Remove ads" on the phone; buying it on either counts for both) is handled entirely by Google Play, and on iPhone and iPad ("Remove ads") by the App Store. We never see your payment details. Your purchase is covered by the Google Privacy Policy (https://policies.google.com/privacy) or Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
 
 ## Watch app
@@ -24,6 +24,18 @@ The short version: the **watch app** collects nothing. The **phone and tablet ap
 - **Opening a challenge.** If the game is installed, the link opens it directly. If not, the link's web page (hosted on GitHub Pages at matanyaasis288.github.io, a static page with no cookies, analytics or ads) sends you to Google Play or the App Store. GitHub may keep technical logs of visits as described in the GitHub Privacy Statement: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement
 - **After installing from a challenge.** On Android, the Play Store link carries the challenge (day, score and name, if any) as the install "referrer", and the game reads it once on its first launch through Google Play's Install Referrer service so the challenge can open. This happens between Google Play and the app on your phone; we don't receive it.
 - Challenges never unlock anything and are not linked to purchases.
+
+## Phone and tablet apps: saving your progress (optional sign-in)
+
+If you tap "Save my progress" and sign in with Google or Apple, your progress is kept on our server so you can get it back on a new phone or tablet, on Android or on iPhone and iPad.
+
+- **Only for ages 13 and up.** Before sign-in, the game asks your year of birth once. It keeps only whether you are 13 or older, on your phone, and never the year. If you are under 13, the sign-in buttons are hidden and the game works as before, with your progress kept on your phone.
+- **What we keep.** A random account number, the email address Google or Apple gives us (with Apple you can choose to hide it), and your save: levels reached, best coins and stars, coins, kangaroos you own and wear, comics seen, quokka selfie spots (not the photos), your racer name, daily streak and similar game progress. We don't keep your Google name or profile picture, your photos, your settings or your purchases.
+- **Why.** Only to save your progress and let you sign in again. We never use it for ads, never sell it and never share it, except with Supabase, the service that stores it for us on servers in Frankfurt, Germany (Supabase Privacy Policy: https://supabase.com/privacy).
+- **Your purchases** stay with Google Play and the App Store, which restore them under your store account.
+- **Signing out** leaves your progress on that phone.
+- **Deleting your account.** In the app, open Settings and tap "Delete my account": your account and save are deleted from our server right away (for Apple accounts we also tell Apple to end the sign-in). You can also ask us by email at matanya.asis288@gmail.com from the address on the account, and we delete it within 30 days. See also https://matanyaasis288.github.io/kangaroojump-privacy-policy/delete-account
+- **How long.** We keep your save while you have an account. Accounts that nobody has signed in to for 3 years are deleted.
 
 ## Phone and tablet apps: online races ("Multiplayer")
 
@@ -66,15 +78,15 @@ Google handles this information as described in "How Google uses information fro
 
 ## Children
 
-The game is not directed at children under 13, and we don't knowingly collect information from anyone. On Android, selfies taken with the camera feature stay on the device and no face data is ever stored. If you believe a child under 13 is using the phone app, you can turn off ad personalization on the device as described above or contact us.
+The game is not directed at children under 13. Sign-in is offered only to players who say they are 13 or older, and we don't knowingly keep information from children under 13; if you believe we have, contact us and we will delete it. On Android, selfies taken with the camera feature stay on the device and no face data is ever stored. If you believe a child under 13 is using the phone app, you can turn off ad personalization on the device as described above or contact us.
 
 ## How long information is kept
 
-We (As Is) don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+If you don't sign in, we (As Is) don't keep any of your personal information: your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. If you sign in, your account and save are kept as described in "Saving your progress" until you delete the account. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
 
 ## Your rights
 
-Because we don't hold any personal information about you, there is nothing for us to access, correct or delete. For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
+If you never sign in, we hold no personal information about you. If you have an account, you can ask us for a copy of your save, ask us to correct it, or delete it (in the app or by email, see above). For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
 
 ## Changes
 
