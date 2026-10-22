@@ -1,21 +1,30 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 11, 2026
+Last updated: October 22, 2026
 
-Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by As Is. This policy explains what each version does with your information.
+Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
-The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. We (As Is) never receive or store your personal information.
+The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept. We don't keep any other personal information.
 
 ## All versions
 
 - **Your game progress.** Levels you've finished, scores, coins, boomerangs and settings are saved on your device. If device backup is on (Android backup with your Google account, or iCloud backup on iPhone and iPad), it may include this small file. That backup is handled by Google or Apple under your account, not by us.
-- **No account and no sign-in.** We don't ask for your email or any other personal details. The only thing you can type in is an optional display name for challenges (see below), which stays on your phone.
-- **Purchases.** The optional one-time purchase ("Full game" on the watch, which lifts the free-level limit there, and "Remove ads" on the phone; buying it on either counts for both) is handled entirely by Google Play, and on iPhone and iPad ("Remove ads") by the App Store. We never see your payment details. Your purchase is covered by the Google Privacy Policy (https://policies.google.com/privacy) or Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
+- **No account and no sign-in.** We don't ask for your email or any other personal details. The only things you can type in are an optional display name for challenges and a race name for online races (see below).
+- **Purchases.** The optional one-time "Remove ads" purchase in the phone and tablet apps is handled entirely by Google Play, or on iPhone and iPad by the App Store. (The watch app is free, with every level open as you play; an earlier watch purchase still counts as Remove ads on the phone.) We never see your payment details. Your purchase is covered by the Google Privacy Policy (https://policies.google.com/privacy) or Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
 
 ## Watch app
 
 - **Motion sensors.** The game reads the watch's accelerometer and gravity sensor so you can play by moving your arm. These readings are processed on the watch, in real time, and are never stored or sent anywhere.
 - The watch app has no ads, no analytics and no tracking.
+
+## Phone and tablet apps: online races with friends
+
+You can race friends online from "Race a friend". Online races use Supabase (Supabase, Inc.), a hosting service we use only to pass race messages between the phones in a room.
+
+- **What is sent while you are in a room:** the room's four-letter code, a random ID made fresh each time the app starts (not linked to you or your device), your race name (one you type, or one the game picks for you), the kangaroo costume you race in, and your moves during the race (position, items used, finishing place). Your device's IP address is seen by the server to make the connection, as with any internet service.
+- **Who sees it:** the other players in the same room see your race name, costume and moves. Anyone with the room's code or invite link can join that room, so share codes only with people you know, and don't use your real full name as a race name.
+- **How long it is kept:** race messages are passed on live and kept only in the server's memory while the room is open. We don't store them in a database, and we don't use them for ads or profiles. Supabase may keep short-lived technical logs (such as connection records) for security, as described at https://supabase.com/privacy.
+- Online races are optional; the adventure, the Daily Run and races against the Roobots work without them.
 
 ## Phone and tablet apps: sharing and challenges
 
@@ -61,11 +70,15 @@ The game is not directed at children under 13, and we don't knowingly collect in
 
 ## How long information is kept
 
-We (As Is) don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+Apart from race messages, which are kept only while a room is open (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+
+## Legal bases (EEA, UK and Switzerland)
+
+We pass race messages because you asked to race (to provide the feature you requested). Personalized ads are shown only with your consent, which you can change at any time from "Privacy settings"; otherwise ads are based on Google's legitimate interests and limited data as Google describes. Supabase and Google may process information outside your country, under their own data transfer safeguards (such as the EU Standard Contractual Clauses).
 
 ## Your rights
 
-Because we don't hold any personal information about you, there is nothing for us to access, correct or delete. For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
+Because we don't keep personal information about you, there is normally nothing for us to access, correct or delete. You can still contact us about any privacy question, and if you are in the EEA, UK or Switzerland you can also complain to your local data protection authority. For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
 
 ## Changes
 
