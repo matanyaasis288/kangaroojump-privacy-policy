@@ -60,17 +60,17 @@ Google handles this information as described in "How Google uses information fro
 **Your choices**
 
 - Where the law requires it (for example in the European Economic Area, the UK and Switzerland), the app asks for your consent before any ad is requested. You can change your choice at any time from "Privacy settings" in the app.
-- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads. You can change this anytime in Settings > Privacy & Security > Tracking.
+- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads. You can change this anytime in Settings > Privacy & Security > Tracking. Players under 13 are never asked (see Children).
 - On Android, you can reset or delete your advertising ID, or opt out of personalized ads, in your phone's settings (Settings > Privacy > Ads, or Settings > Google > Ads, depending on your phone).
 - The one-time "Remove ads" purchase turns off the banners and the ads between levels.
 
 ## Children
 
-Kangaroo Jump is made for everyone, children included. On Android phones and tablets the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over, on your device, and asks again a year later for anyone under 13.
+Kangaroo Jump is made for everyone, children included. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over, on your device, and asks again a year later for anyone under 13.
 
-For players under 13 on Android (and for anyone who hasn't answered yet):
+For players under 13 (and for anyone who hasn't answered yet):
 
-- **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431).
+- **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431). On iPhone and iPad they are never asked for permission to track.
 - **No typed names online.** In online races, a child races under a name the game picks; they can't type a name of their own, so nothing a child writes is shared with other players.
 - **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored.
 - We don't knowingly collect personal information from children, and we don't ask for any.
