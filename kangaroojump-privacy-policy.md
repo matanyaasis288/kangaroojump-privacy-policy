@@ -70,9 +70,9 @@ Kangaroo Jump is made for everyone, children included. On phones and tablets (An
 
 For players under 13 (and for anyone who hasn't answered yet):
 
-- **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431). On iPhone and iPad they are never asked for permission to track.
+- **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431). On iPhone and iPad they are never asked for permission to track. On Android phones and tablets, a child's full-screen ads between levels are image ads only (no video), shown only after a level they won and at most once every five minutes, and a child is never offered an ad to continue a level.
 - **No typed names online.** In online races, a child races under a name the game picks; they can't type a name of their own, so nothing a child writes is shared with other players.
-- **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored.
+- **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored. A child can save a selfie, but the game shows no "Share" or "Instagram Stories" button for it, and no link to the game's Instagram page.
 - We don't knowingly collect personal information from children, and we don't ask for any.
 
 Parents and guardians: if you have a question, or think your child's information was shared, email matanya.asis288@gmail.com and we'll help.
