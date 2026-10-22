@@ -22,7 +22,7 @@ The short version: the **watch app** collects nothing. The **phone and tablet ap
 You can race friends online from "Race a friend". Online races use Supabase (Supabase, Inc.), a hosting service we use only to pass race messages between the phones in a room.
 
 - **What is sent while you are in a room:** the room's four-letter code, a random ID made fresh each time the app starts (not linked to you or your device), your race name (one you type, or one the game picks for you), the kangaroo costume you race in, and your moves during the race (position, items used, finishing place). Your device's IP address is seen by the server to make the connection, as with any internet service.
-- **Who sees it:** the other players in the same room see your race name, costume and moves. Anyone with the room's code or invite link can join that room, so share codes only with people you know, and don't use your real full name as a race name.
+- **Who sees it:** the other players in the same room see your race name, costume and moves. Players under 13 race under a name the game picks (see Children). Anyone with the room's code or invite link can join that room, so share codes only with people you know, and don't use your real full name as a race name.
 - **How long it is kept:** race messages are passed on live and kept only in the server's memory while the room is open. We don't store them in a database, and we don't use them for ads or profiles. Supabase may keep short-lived technical logs (such as connection records) for security, as described at https://supabase.com/privacy.
 - Online races are optional; the adventure, the Daily Run and races against the Roobots work without them.
 
@@ -48,7 +48,7 @@ The Android phone and tablet app lets you take a selfie with the game's quokka (
 
 The phone and tablet versions are free and show ads from Google AdMob: a banner on the menus, a full-screen ad between some levels, and optional video ads you can choose to watch to continue a level.
 
-To show ads, limit how often you see them, measure them and prevent fraud, Google's AdMob service may collect from your phone:
+To show ads, limit how often you see them, measure them and prevent fraud, Google's AdMob service may collect from your phone (for players under 13, see Children below for the limits on this):
 
 - your device's advertising ID and other device identifiers,
 - your IP address and the approximate location derived from it,
@@ -66,7 +66,16 @@ Google handles this information as described in "How Google uses information fro
 
 ## Children
 
-The game is not directed at children under 13, and we don't knowingly collect information from anyone. On Android, selfies taken with the camera feature stay on the device and no face data is ever stored. If you believe a child under 13 is using the phone app, you can turn off ad personalization on the device as described above or contact us.
+Kangaroo Jump is made for everyone, children included. On Android phones and tablets the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over, on your device, and asks again a year later for anyone under 13.
+
+For players under 13 on Android (and for anyone who hasn't answered yet):
+
+- **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431).
+- **No typed names online.** In online races, a child races under a name the game picks; they can't type a name of their own, so nothing a child writes is shared with other players.
+- **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored.
+- We don't knowingly collect personal information from children, and we don't ask for any.
+
+Parents and guardians: if you have a question, or think your child's information was shared, email matanya.asis288@gmail.com and we'll help.
 
 ## How long information is kept
 
