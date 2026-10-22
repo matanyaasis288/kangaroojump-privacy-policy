@@ -50,7 +50,7 @@ The Android phone and tablet app lets you take a selfie with the game's quokka (
 
 The phone and tablet versions are free and show ads from Google AdMob: a banner under the level map, a full-screen ad between some levels, and optional video ads you can choose to watch to continue a level.
 
-To show ads, limit how often you see them, measure them and prevent fraud, Google's AdMob service may collect from your phone (for players under 13, see Children below for the limits on this):
+To show ads, limit how often you see them, measure them and prevent fraud, Google's AdMob service may collect from your phone (for players under 16, see Children below for the limits on this):
 
 - your device's advertising ID and other device identifiers,
 - your IP address and the approximate location derived from it,
@@ -62,13 +62,13 @@ Google handles this information as described in "How Google uses information fro
 **Your choices**
 
 - Where the law requires it (for example in the European Economic Area, the UK and Switzerland), the app asks for your consent before any ad is requested. You can change your choice at any time from "Privacy settings" in the app.
-- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads. You can change this anytime in Settings > Privacy & Security > Tracking. Players under 13 are never asked (see Children).
+- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads. You can change this anytime in Settings > Privacy & Security > Tracking. Players under 16 are never asked (see Children).
 - On Android, you can reset or delete your advertising ID, or opt out of personalized ads, in your phone's settings (Settings > Privacy > Ads, or Settings > Google > Ads, depending on your phone).
 - The one-time "Remove ads" purchase turns off the banners and the ads between levels.
 
 ## Children
 
-Kangaroo Jump is made for everyone, children included. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over, on your device, and asks again a year later for anyone under 13.
+Kangaroo Jump is made for everyone, children included. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over and whether you are 16 or over, on your device, and asks again a year later for anyone under 13.
 
 For players under 13 (and for anyone who hasn't answered yet):
 
@@ -77,6 +77,8 @@ For players under 13 (and for anyone who hasn't answered yet):
 - **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored. A child can save a selfie, but the game shows no "Share" or "Instagram Stories" button for it, and no link to the game's Instagram page.
 - **Nothing is shared from the game.** On phones and tablets (Android, iPhone and iPad), a child gets no "Share" or "Challenge a friend" buttons (score cards, new kangaroos, quokka postcards), so no picture or typed name leaves the game from a child.
 - We don't knowingly collect personal information from children, and we don't ask for any.
+
+For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads, and on iPhone and iPad they are never asked for permission to track. Everything else works as for players 13 and over.
 
 Parents and guardians: if you have a question, or think your child's information was shared, email matanya.asis288@gmail.com and we'll help.
 
