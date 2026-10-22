@@ -78,7 +78,7 @@ For players under 13 (and for anyone who hasn't answered yet):
 - **Nothing is shared from the game.** On phones and tablets (Android, iPhone and iPad), a child gets no "Share" or "Challenge a friend" buttons (score cards, new kangaroos, quokka postcards), so no picture or typed name leaves the game from a child.
 - We don't knowingly collect personal information from children, and we don't ask for any.
 
-For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads, and on iPhone and iPad they are never asked for permission to track. Everything else works as for players 13 and over.
+For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads (or no ads at all where the law would need consent), and on iPhone and iPad they are never asked for permission to track. Everything else works as for players 13 and over.
 
 Parents and guardians: if you have a question, or think your child's information was shared, email matanya.asis288@gmail.com and we'll help.
 
