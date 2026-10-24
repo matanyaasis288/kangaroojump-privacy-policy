@@ -593,6 +593,9 @@
         o.hinted = true; if (!(o.hint === "slide" ? sliding : R.air)) { S.hint = o.hint; S.idle = 0; }
       }
       if (o.kind === "flock") {                         // slide under it: its hitbox starts ARCH_BOTTOM up
+        // A slide started for it stays down till it's past (the flock is ~1.2 s from its hint to clear of Roo, the
+        // slide only SLIDE_S 1 s): hold it in its held loop while the flock is near or over him.
+        if (!o.done && ahead < 75 && R.slideT >= 0) { R.slideT = Math.min(R.slideT, K.SLIDE_S - 0.05); sliding = true; }
         if (!o.done && ahead < HALF_W && ahead + 34 > -HALF_W) {
           if (R.y + (sliding ? (E.SLIDE_HEIGHT || 13) : (E.KANGAROO_HEIGHT || 34)) > ARCH) { o.done = true; bump(o); }
         }
