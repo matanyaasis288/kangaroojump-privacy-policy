@@ -460,9 +460,10 @@
   var GRAVITY = K.GRAVITY, KX = K.KX, HALF_W = K.HALF_W, ARCH = E.ARCH_BOTTOM || 20;
   var SPEED = (E.level1 && E.level1.startSpeed) || 100;
   var FLIGHT = 0.85, MAG_H = 48, MAG_OWN = 40;
-  // Maggie's gloat after the snatch (frames/cry): RISE s up to the hover ahead of Roo, round to face him, GLOAT s of her
-  // villain's look, CACKLE s laughing at him, round again and AWAY s up and off with it.
-  var RISE = 0.5, GLOAT = 0.9, CACKLE = 0.75, AWAY = 1.3, HOVER_X = 70, HOVER_H = 64, ZOOM = 1.45;
+  // Maggie's gloat after the snatch (frames/cry): RISE s climbing ahead of Roo, round at the top and SETTLE s down to the
+  // hover facing him, GLOAT s of her villain's look, CACKLE s laughing at him, CLIMB s up and round again, AWAY s off with it.
+  var RISE = 0.55, SETTLE = 0.4, CLIMB = 0.35, GLOAT = 0.9, CACKLE = 0.75, AWAY = 1.3, HOVER_X = 70, HOVER_H = 60, ZOOM = 1.45;
+  var PITCH = 1.25;                                   // nose-up at the top of a turn (72 degrees)
 
   // ---- the script, in scene units along the run ------------------------------------------------------------
   var ROCK = 230, BUSH = 430, FLOCK = 600, GANG_AT = 700, PICKUP = 960, MAGPIE_AT = 1000, END = 1460;
@@ -633,25 +634,44 @@
     if (gg.blocked >= 0) gg.blocked += d;
   }
   // With the boomerang: up to a hover ahead of Roo, round to face him with a villain's look, a cackle, then away.
+  // A bird's U-turn (her drawings are side views only): she climbs till she's nose-up, pivots there, where facing the
+  // other way barely shows, and swoops back down at him. Leaving, the same the other way round.
   function gloatTimes() {
-    var turn = K.count("maggie_turn") ? K.seconds("maggie_turn") : 0.16, t = {};
-    t.turn = RISE; t.gloat = t.turn + turn; t.cackle = t.gloat + GLOAT; t.back = t.cackle + CACKLE; t.away = t.back + turn;
-    t.end = t.away + AWAY; t.turnS = turn;
+    var t = {};
+    t.turn = RISE; t.gloat = t.turn + SETTLE; t.cackle = t.gloat + GLOAT; t.back = t.cackle + CACKLE; t.away = t.back + CLIMB;
+    t.end = t.away + AWAY;
     return t;
   }
-  function gloat(mg, bp) {
-    var T = gloatTimes(), u = mg.t;
-    if (u < T.turn) {                                   // up and ahead from the snatch, easing to the hover
-      var k = K.smooth(u / RISE);
-      mg.x = bp.x + (HOVER_X - bp.x) * k; mg.h = bp.h + 6 + (HOVER_H - bp.h - 6) * k;
-    } else if (u < T.away) {
-      mg.x = HOVER_X; mg.h = HOVER_H + 2.5 * Math.sin((u - T.turn) * 5);
-      if (u >= T.cackle && !mg.cackled) { mg.cackled = true; sfx.cackle(); }
-    } else {
-      var a = u - T.away; mg.x = HOVER_X + a * 130; mg.h = HOVER_H + a * 40 + a * a * 30;
-      if (!mg.cawed) { mg.cawed = true; sfx.caw(); }
-      if (a > AWAY) { S.phase = "end"; S.endT = 0; }
+  // Where she is and how she's pitched (radians, nose up > 0) after the snatch, and which way she faces.
+  function gloatPose(mg, bp) {
+    var T = gloatTimes(), u = mg.t, p = { x: HOVER_X, h: HOVER_H, pitch: 0, left: true };
+    var ax = HOVER_X + 22, ah = HOVER_H + 30, bx = HOVER_X - 4, bh = HOVER_H + 26;   // the two turns' tops
+    if (u < T.turn) {                                   // up and ahead from the snatch, pulling up into the climb
+      var k = u / RISE, e = K.smooth(k);
+      p.x = bp.x + (ax - bp.x) * (1 - (1 - k) * (1 - k)); p.h = bp.h + 6 + (ah - bp.h - 6) * k * k;
+      p.pitch = PITCH * e * e; p.left = false;
+    } else if (u < T.gloat) {                           // pivoted: down the other way to the hover, levelling out
+      var q = (u - T.turn) / SETTLE, f = K.smooth(q);
+      p.x = ax + (HOVER_X - ax) * (1 - (1 - q) * (1 - q)); p.h = ah + (HOVER_H - ah) * f;
+      p.pitch = PITCH * (1 - f) * (1 - f);
+    } else if (u < T.back) {
+      p.h = HOVER_H + 2.5 * Math.sin((u - T.gloat) * 5);
+    } else if (u < T.away) {                            // up into the second climb, facing him still
+      var c = (u - T.back) / CLIMB, ce = K.smooth(c), h0 = HOVER_H + 2.5 * Math.sin((T.back - T.gloat) * 5);
+      p.x = HOVER_X + (bx - HOVER_X) * ce; p.h = h0 + (bh - h0) * c * c; p.pitch = PITCH * ce * ce;
+    } else {                                            // pivoted again: away with it, the nose coming down
+      var a = u - T.away;
+      p.x = bx + a * 130; p.h = bh + a * 30 + a * a * 30; p.left = false;
+      p.pitch = PITCH * Math.max(0.2, 1 - K.smooth(a / 0.4));
     }
+    return p;
+  }
+  function gloat(mg, bp) {
+    var T = gloatTimes(), u = mg.t, p = gloatPose(mg, bp);
+    mg.x = p.x; mg.h = p.h; mg.pose = p;
+    if (u >= T.cackle && !mg.cackled) { mg.cackled = true; sfx.cackle(); }
+    if (u >= T.away && !mg.cawed) { mg.cawed = true; sfx.caw(); }
+    if (u - T.away > AWAY) { S.phase = "end"; S.endT = 0; }
     if (u >= 0.1) R.cryWant = true;                     // the joey's face falls, then the tears (core.js drawRoo)
   }
   function gotCoin(h, delay) { S.coins++; S.coinPop = -delay; sfx.coin(delay); S.pops.push({ y: h, t: -delay }); }
@@ -669,7 +689,7 @@
     var z = zoom();
     if (z.k > 0) {                                      // the camera closes in on Roo and Maggie for her gloat
       // As close as fits Maggie's crown under the banner and Roo's feet on screen (a wide screen is short).
-      var fx = (sx(KX) + sx(KX + HOVER_X)) / 2, fy = sy(36), top = sy(HOVER_H + 18);
+      var fx = (sx(KX) + sx(KX + HOVER_X)) / 2, fy = sy(36), top = sy(HOVER_H + 42);   // the top of her turns
       var under = K.portrait ? K.H * 0.3 + 46 * Math.min(K.W, K.H) / 390 : K.H * 0.12;   // the banner, or the HUD
       var most = Math.max(1, Math.min(ZOOM, (K.H * 0.94 - under) / (sy(0) - top)));
       var s = 1 + (most - 1) * z.k, dy = Math.max(0, under - (fy + (top - fy) * s));
@@ -740,18 +760,11 @@
   // Boss Maggie at the origin: flying right, or (after the snatch) round to face Roo, gloating and cackling.
   function drawMaggie(mg) {
     if (!S.snatched) return K.drawAt("maggie_fly_empty", mg.t, 0, 0);
-    var T = gloatTimes(), u = mg.t;
-    if (u < T.turn || u >= T.away) return K.drawAt("maggie_fly", u, 0, 0);
-    var facing = function (v) {                         // facing Roo: her villain's look, then the cackle
-      var c = v >= T.cackle && K.count("maggie_cackle");
-      return K.drawAt(c ? "maggie_cackle" : "maggie_gloat", v - (c ? T.cackle : T.gloat), 0, 0);
-    };
-    var turning = u < T.gloat ? (u - T.turn) / T.turnS : u >= T.back ? 1 - (u - T.back) / T.turnS : -1;
-    if (turning < 0) return facing(u);
-    if (K.count("maggie_turn")) return K.drawAnim("maggie_turn", turning * (K.count("maggie_turn") - 1) * K.stepOf("maggie_turn"), 0, 0, 1, false);
-    var sq = Math.cos(Math.PI * turning);               // no turn frames: round on a squash, right-facing to left-facing
-    g.scale(Math.max(0.08, Math.abs(sq)), 1 + 0.06 * (1 - Math.abs(sq)));
-    return sq > 0 ? K.drawAt("maggie_fly", u, 0, 0) : facing(u);
+    var T = gloatTimes(), u = mg.t, p = mg.pose || { pitch: 0, left: false };
+    if (!p.left) { g.rotate(-p.pitch); return K.drawAt("maggie_fly", u, 0, 0); }   // facing right: nose up = anticlockwise
+    g.rotate(p.pitch);                                  // facing him (left), her drawings' own way: then the cackle
+    var c = u >= T.cackle && K.count("maggie_cackle");
+    return K.drawAt(c ? "maggie_cackle" : "maggie_gloat", u - (c ? T.cackle : T.turn), 0, 0);
   }
 
   // Maggie's gang over Roo: the magpie, the stone in flight, then knocked off the umbrella with its clunk.
