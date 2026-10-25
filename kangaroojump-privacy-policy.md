@@ -1,21 +1,30 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 22, 2026
+Last updated: October 25, 2026
 
 Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
-The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept. If you choose to report a rude race name, the report reaches us as an email you send yourself. We don't keep any other personal information.
+The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
 
 ## All versions
 
-- **Your game progress.** Levels you've finished, scores, coins, boomerangs and settings are saved on your device. If device backup is on (Android backup with your Google account, or iCloud backup on iPhone and iPad), it may include this small file. That backup is handled by Google or Apple under your account, not by us.
-- **No account and no sign-in.** We don't ask for your email or any other personal details. The only things you can type in are an optional display name for challenges and a race name for online races (see below).
+- **Your game progress.** Levels you've finished, scores, coins, boomerangs and settings are saved on your device. If device backup is on (Android backup with your Google account, or iCloud backup on iPhone and iPad), it may include this small file. That backup is handled by Google or Apple under your account, not by us. On phones and tablets a copy of your progress can also be kept in Google Play Games or iCloud (see "Cloud save" below).
+- **No account with us.** We don't ask for your email or any other personal details. The only sign-in in the game is the optional Google Play Games one on Android, which is Google's own games profile (see "Cloud save" below). The only things you can type in are an optional display name for challenges and a race name for online races (see below).
 - **Purchases.** The optional one-time "Remove ads" purchase in the phone and tablet apps is handled entirely by Google Play, or on iPhone and iPad by the App Store. (The watch app is free, with every level open as you play; an earlier watch purchase still counts as Remove ads on the phone.) We never see your payment details. Your purchase is covered by the Google Privacy Policy (https://policies.google.com/privacy) or Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
 
 ## Watch app
 
 - **Motion sensors.** The game reads the watch's accelerometer and gravity sensor so you can play by moving your arm. These readings are processed on the watch, in real time, and are never stored or sent anywhere.
 - The watch app has no ads, no analytics and no tracking.
+
+## Phone and tablet apps: cloud save (optional)
+
+The phone and tablet apps can keep a copy of your game progress in your own cloud account, so your levels, stars, coins and kangaroos follow you to your other phones and tablets. It's optional, and the game plays exactly the same without it.
+
+- **What is saved:** levels open, best coins and stars per level, comics seen, kangaroos owned and the one you wear, quokka selfie stickers (which level, which kangaroo: never the photo), pouch toss grades, the Daily Run streak and coin totals, plus a random ID for each of your devices so coins from two devices add up correctly. Never your age answer, your race name, your settings (sound, music, vibration, language) or anything else about you.
+- **Android (Google Play Games).** If your phone is signed in to Google Play Games, the game saves this to Play Games "Saved Games" under your Play Games profile. Settings has a "Cloud save" line that shows your Play Games name and opens Google's own page where you can choose which account games use. If you switch to another profile and both have progress, the game asks you before combining them. Google Play Games is run by Google: when you use it, Google receives your Play Games profile (gamer name and picture, which the game shows only on your phone), the saved progress, and diagnostic information about its service, as described in the Google Privacy Policy (https://policies.google.com/privacy) and Google's Play Games data disclosure (https://developer.android.com/games/pgs/data-collection). Google sends it encrypted, and the game can only read its own save for your profile. We (As Is) don't receive it and can't see it.
+- **iPhone and iPad (iCloud).** If your device is signed in to iCloud, the game keeps the same small save in iCloud key-value storage under your Apple Account. The game never asks you to sign in for this. Apple keeps it as described in Apple's Privacy Policy (https://www.apple.com/legal/privacy/). We don't receive it and can't see it.
+- **Deleting it.** On Android, delete Kangaroo Jump's data from your Play Games profile (in the Play Games app or in your phone's Settings > Google > Play Games), or delete your whole Play Games profile in your Google Account. On iPhone and iPad, delete the game's data in Settings > [your name] > iCloud > Manage Account Storage. Your progress on the device itself stays until you uninstall the game.
 
 ## Phone and tablet apps: online races with friends
 
@@ -74,6 +83,7 @@ For players under 13 (and for anyone who hasn't answered yet):
 
 - **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431). On iPhone and iPad they are never asked for permission to track. On phones and tablets (Android, iPhone and iPad), a child's full-screen ads between levels are never video ads (only text, image or simple display ads), shown only after a level they won and at most once every five minutes, and a child is never offered an ad to continue a level.
 - **No typed names online.** In online races, a child races under a name the game picks; they can't type a name of their own, so nothing a child writes is shared with other players. A child can hide another player's name, but the game never opens an email from a child to report it.
+- **Cloud save.** Children under 13 can have a Google Play Games profile only if their Google Account is supervised (Family Link) and a parent allows it; on iPhone and iPad, iCloud follows the family's Apple settings. The cloud copy holds only game progress, never anything about the child (see "Cloud save").
 - **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored. A child can save a selfie, but the game shows no "Share" or "Instagram Stories" button for it, and no link to the game's Instagram page.
 - **Nothing is shared from the game.** On phones and tablets (Android, iPhone and iPad), a child gets no "Share" or "Challenge a friend" buttons (score cards, new kangaroos, quokka postcards), so no picture or typed name leaves the game from a child.
 - We don't knowingly collect personal information from children, and we don't ask for any.
@@ -84,15 +94,15 @@ Parents and guardians: if you have a question, or think your child's information
 
 ## How long information is kept
 
-Apart from race messages, which are kept only while a room is open, and name reports you choose to email us, which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+Apart from race messages, which are kept only while a room is open, and name reports you choose to email us, which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
 
 ## Legal bases (EEA, UK and Switzerland)
 
-We pass race messages because you asked to race (to provide the feature you requested). We handle a name report you email us because we have a legitimate interest in keeping the game free of rude and hurtful names. Personalized ads are shown only with your consent, which you can change at any time from "Privacy settings"; otherwise ads are based on Google's legitimate interests and limited data as Google describes. Supabase and Google may process information outside your country, under their own data transfer safeguards (such as the EU Standard Contractual Clauses).
+We pass race messages because you asked to race, and keep a cloud copy of your progress in your own Google Play Games or iCloud account to provide cloud save (in both cases, to provide the feature you use). We handle a name report you email us because we have a legitimate interest in keeping the game free of rude and hurtful names. Personalized ads are shown only with your consent, which you can change at any time from "Privacy settings"; otherwise ads are based on Google's legitimate interests and limited data as Google describes. Supabase and Google may process information outside your country, under their own data transfer safeguards (such as the EU Standard Contractual Clauses).
 
 ## Your rights
 
-Because we don't keep personal information about you (apart from a name report you emailed us, until we've dealt with it), there is normally nothing for us to access, correct or delete. To ask about or delete a report you sent, email us from the same address. You can still contact us about any privacy question, and if you are in the EEA, UK or Switzerland you can also complain to your local data protection authority. For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
+Because we don't keep personal information about you (apart from a name report you emailed us, until we've dealt with it), there is normally nothing for us to access, correct or delete. To ask about or delete a report you sent, email us from the same address. You can still contact us about any privacy question, and if you are in the EEA, UK or Switzerland you can also complain to your local data protection authority. Your cloud save is in your own Google Play Games or iCloud account, where you can delete it yourself (see "Cloud save"). For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy.
 
 ## Changes
 
