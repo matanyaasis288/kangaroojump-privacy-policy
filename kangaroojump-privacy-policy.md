@@ -1,10 +1,10 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 25, 2026
+Last updated: October 27, 2026
 
 Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
-The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
+The short version: the **watch app** collects nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept; the server only adds to anonymous daily totals (like "rooms made today") that can't be traced to anyone. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
 
 ## All versions
 
@@ -35,6 +35,7 @@ You can race friends online from "Race a friend". Online races use Supabase (Sup
 - **How long it is kept:** race messages are passed on live and kept only in the server's memory while the room is open. We don't store them in a database, and we don't use them for ads or profiles. Supabase may keep short-lived technical logs (such as connection records) for security, as described at https://supabase.com/privacy.
 - **Rude names.** Typed race names and challenge names are checked on your phone against a list of rude words. A rude name can't be used, and one arriving from another phone is shown as a name the game picks instead. This check happens on the device; nothing is sent for it.
 - **Hide and report.** If you see a rude or hurtful name in a room, you can tap it to hide it: on your phone that player then races under a name the game picks, until you close the app. Hiding is kept only in your phone's memory and nobody is told. Players 13 and over can also choose "Report and hide", which opens your own email app with a report to matanya.asis288@gmail.com already filled in: the reported name and the room's code, plus anything you add. Nothing is sent unless you send that email yourself. If you send it, we receive the email, so also your email address and whatever you wrote. We use reports only to keep rude names out of the game (for example by adding words to the name check), we don't share them, and we delete a report once we've dealt with it. Players under 13 can hide names but are never offered the report email.
+- **Anonymous totals.** To see whether online races work and get used, the phone and tablet apps add one to a daily total on the same server when something happens in races: a room made, joined or full, a room that couldn't be reached, "Invite a friend" tapped, an invite link opened, a room's QR code scanned, a race against the Roobots chosen, a race started (with how many people were in it) or a start that failed. All that is kept is the day, what happened, whether it was Android or iPhone/iPad, and the running total. No ID, name, room code, device details or age goes with it, so a total can't be linked to you or to anyone else, children included. We use the totals only to improve the game.
 - Online races are optional; the adventure, the Daily Run and races against the Roobots work without them.
 
 ## Phone and tablet apps: sharing and challenges
@@ -94,7 +95,7 @@ Parents and guardians: if you have a question, or think your child's information
 
 ## How long information is kept
 
-Apart from race messages, which are kept only while a room is open, and name reports you choose to email us, which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+Apart from race messages, which are kept only while a room is open, the anonymous race totals (which contain nothing about anyone, see above), and name reports you choose to email us, which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
 
 ## Legal bases (EEA, UK and Switzerland)
 
