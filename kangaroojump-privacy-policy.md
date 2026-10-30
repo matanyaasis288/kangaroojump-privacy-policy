@@ -48,7 +48,7 @@ You can race friends online from "Race a friend". Online races use Supabase (Sup
 
 ## Phone and tablet apps: the camera (quokka selfies and room QR codes)
 
-The phone and tablet apps (Android, iPhone and iPad) use the camera for two things only: taking a selfie with the game's quokka (from the Quokka selfies album, or after meeting a quokka in a level), and reading a friend's race room QR code when you tap "Scan". The watch app has no camera feature and never uses the camera.
+The phone and tablet apps (Android, iPhone and iPad) use the camera for two things only: taking a selfie with the game's quokka (from the Quokka selfies album, or after meeting a quokka in a level), and reading a friend's race room QR code when you choose to scan one. The watch app has no camera feature and never uses the camera.
 
 - **Room QR codes.** The scanner looks for a Kangaroo Jump room code in the live picture, on your device, and joins that room. No picture is saved or sent; only the room code is used, as if you had typed it.
 
