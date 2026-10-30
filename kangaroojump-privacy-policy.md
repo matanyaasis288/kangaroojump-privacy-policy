@@ -1,6 +1,6 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 27, 2026
+Last updated: October 30, 2026
 
 Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
@@ -46,14 +46,16 @@ You can race friends online from "Race a friend". Online races use Supabase (Sup
 - **After installing from a challenge.** On Android, the Play Store link carries the challenge (day, score and name, if any) as the install "referrer", and the game reads it once on its first launch through Google Play's Install Referrer service so the challenge can open. This happens between Google Play and the app on your phone; we don't receive it.
 - Challenges never unlock anything and are not linked to purchases.
 
-## Android phone and tablet app only: camera selfies
+## Phone and tablet apps: the camera (quokka selfies and room QR codes)
 
-The Android phone and tablet app lets you take a selfie with the game's quokka (from the Quokka selfies album, or after meeting a quokka in a level). The iPhone and iPad app and the watch app have no camera feature and never use the camera.
+The phone and tablet apps (Android, iPhone and iPad) use the camera for two things only: taking a selfie with the game's quokka (from the Quokka selfies album, or after meeting a quokka in a level), and reading a friend's race room QR code when you tap "Scan". The watch app has no camera feature and never uses the camera.
 
-- **Camera permission.** The app asks to use the camera only when you open the selfie camera, and explains why first. You can say no and keep playing; the rest of the game doesn't need it. You can turn it off again at any time in your phone's settings.
+- **Room QR codes.** The scanner looks for a Kangaroo Jump room code in the live picture, on your device, and joins that room. No picture is saved or sent; only the room code is used, as if you had typed it.
+
+- **Camera permission.** The app asks to use the camera only when you open the selfie camera or the QR scanner, and explains why first. You can say no and keep playing; the rest of the game doesn't need it. You can turn it off again at any time in your phone's settings.
 - **Everything happens on your phone.** The live picture, the filters (Golden Hour, Beach Day, Night Glow), the cartoon characters and the frame are all drawn on your device. No photo, video or camera image is uploaded by the game, and we never receive any.
-- **Placing the quokka next to your face.** If "By my face" is on, the app uses Android's built-in on-device face detector to find where a face is in the live picture, only to put the quokka beside it. It only works out a position and size on the screen, in memory, while the camera is open. No face data, face template or biometric information is stored, sent or used to identify anyone, and no extra software or model is downloaded for it.
-- **Nothing is kept unless you choose.** A photo you take is held in memory until you leave the screen. It's saved only if you tap "Save" (into the app's private album on your phone, which you can delete from the album at any time and which is left out of the app's device backup) or "Save to gallery" (into your phone's Pictures/Kangaroo Jump folder, managed by you like any other photo). Uninstalling the app deletes its private album.
+- **Placing the quokka next to your face.** If "By my face" is on, the app uses the phone's built-in on-device face detector (Android's, or Apple's Vision on iPhone and iPad) to find where a face is in the live picture, only to put the quokka beside it. It only works out a position and size on the screen, in memory, while the camera is open. No face data, face template or biometric information is stored, sent or used to identify anyone, and no extra software or model is downloaded for it.
+- **Nothing is kept unless you choose.** A photo you take is held in memory until you leave the screen. It's saved only if you tap "Save" (into the app's private album on your phone, which you can delete from the album at any time and which is left out of the app's device backup) or "Save to gallery" (into your phone's Pictures/Kangaroo Jump folder on Android, or the Photos app on iPhone and iPad, managed by you like any other photo). Uninstalling the app deletes its private album.
 - **Sharing is up to you.** "Share" opens the system share sheet; the picture goes only to the app you pick, under that app's own policy. If the "Instagram Stories" button is shown, it opens Instagram's own story editor with the picture; nothing is posted until you post it there.
 
 ## Phone and tablet apps: ads
