@@ -14,7 +14,7 @@ On iPhone or iPad: Settings → Restore Purchases. On Android: open the game sig
 No. It only removes the ads. Levels open one at a time as you play.
 
 **Is my progress saved?**
-Progress is saved on your device. Deleting the app deletes your progress.
+Progress is saved on your device as you play. If your phone is signed in to Google Play Games (Android) or iCloud (iPhone and iPad), the game also keeps a copy there, so a new device or a reinstall carries on where you left off. Without it, deleting the app deletes your progress.
 
 **I saw an ad that seems wrong. How do I report it?**
 Email **matanya.asis288@gmail.com** with a screenshot of the ad (or what it showed) and roughly when you saw it, and we'll block it.
