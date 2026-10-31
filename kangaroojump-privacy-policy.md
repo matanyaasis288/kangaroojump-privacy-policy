@@ -1,6 +1,6 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 30, 2026
+Last updated: October 31, 2026
 
 Kangaroo Jump is a game for Wear OS watches, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
@@ -45,6 +45,10 @@ You can race friends online from "Race a friend". Online races use Supabase (Sup
 - **Opening a challenge.** If the game is installed, the link opens it directly. If not, the link's web page (hosted on GitHub Pages at matanyaasis288.github.io, a static page with no cookies, analytics or ads) sends you to Google Play or the App Store. GitHub may keep technical logs of visits as described in the GitHub Privacy Statement: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement
 - **After installing from a challenge.** On Android, the Play Store link carries the challenge (day, score and name, if any) as the install "referrer", and the game reads it once on its first launch through Google Play's Install Referrer service so the challenge can open. This happens between Google Play and the app on your phone; we don't receive it.
 - Challenges never unlock anything and are not linked to purchases.
+
+## Phone and tablet apps: campfire reminders (optional)
+
+After you collect a gift at the campfire, the game asks once whether it may remind you. If you allow it, the app schedules at most two reminders a day on your device: one in the morning when a free gift is waiting, and one in the evening only if your campfire streak would end that night. They are local notifications made and shown by your phone; nothing is sent to us or to anyone else to make them, and no notification service, token or advertising ID is used. You can turn them off at any time in your phone's settings.
 
 ## Phone and tablet apps: the camera (quokka selfies and room QR codes)
 
