@@ -1,10 +1,10 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: October 31, 2026
+Last updated: RELEASE DATE, 2026
 
 Kangaroo Jump is a game for Wear OS watches and Apple Watch, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
-The short version: the **watch apps** (Wear OS and Apple Watch) collect nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept; the server only adds to anonymous daily totals (like "rooms made today") that can't be traced to anyone. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
+The short version: the **watch apps** (Wear OS and Apple Watch) collect nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. If you race friends online, your race name and moves pass through our game server while the race runs and are not kept; the server only adds to anonymous daily totals (like "rooms made today") that can't be traced to anyone. The phone and tablet apps also add to anonymous daily totals of how the game is played (like "level 12 started today"), with nothing that can be traced to anyone either. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
 
 ## All versions
 
@@ -37,6 +37,15 @@ You can race friends online from "Multiplayer". Online races use Supabase (Supab
 - **Hide and report.** If you see a rude or hurtful name in a room, you can tap it to hide it: on your phone that player then races under a name the game picks, until you close the app. Hiding is kept only in your phone's memory and nobody is told. Players 13 and over can also choose "Report and hide", which opens your own email app with a report to matanya.asis288@gmail.com already filled in: the reported name and the room's code, plus anything you add. Nothing is sent unless you send that email yourself. If you send it, we receive the email, so also your email address and whatever you wrote. We use reports only to keep rude names out of the game (for example by adding words to the name check), we don't share them, and we delete a report once we've dealt with it. Players under 13 can hide names but are never offered the report email.
 - **Anonymous totals.** To see whether online races work and get used, the phone and tablet apps add one to a daily total on the same server when something happens in races: a room made, joined or full, a room that couldn't be reached, "Invite a friend" tapped, an invite link opened, a room's QR code scanned, a race against the Roobots chosen, a race started (with how many people were in it) or a start that failed. All that is kept is the day, what happened, whether it was Android or iPhone/iPad, and the running total. No ID, name, room code, device details or age goes with it, so a total can't be linked to you or to anyone else, children included. We use the totals only to improve the game.
 - Online races are optional; the adventure, the Daily Run and races against the Roobots work without them.
+
+## Phone and tablet apps: anonymous game totals
+
+To see which levels are too hard and where players give up, so we can make the game better, the phone and tablet apps add one to a daily total on our game server (Supabase, the same one as for online races) when one of these happens: the app is opened, a new player finishes the first-launch welcome, or a level run is started, won, lost or left before the end (with that level's number; the Daily Run counts as level 0).
+
+- **What is kept:** only the day, what happened, the level's number, whether it was Android or iPhone/iPad, and the running total. No ID, name, device details, age, score or game progress goes with it, so a total can't be linked to you or to anyone else, children included. Your device's IP address is seen by the server to make the connection, as with any internet service, and isn't stored with the totals.
+- **Who sees it:** only us, as numbers in a private dashboard. The totals aren't shared, sold or used for ads.
+- **When:** only after the first-launch welcome (age and this policy) is done, and only on the phone and tablet apps; the watch apps send nothing. Without an internet connection nothing is sent and nothing is saved to send later.
+- The totals are kept for as long as they help us improve the game.
 
 ## Phone and tablet apps: sharing and challenges
 
@@ -95,6 +104,7 @@ For players under 13 (and for anyone who hasn't answered yet):
 - **Cloud save.** Children under 13 can have a Google Play Games profile only if their Google Account is supervised (Family Link) and a parent allows it; on iPhone and iPad, iCloud follows the family's Apple settings. The cloud copy holds only game progress, never anything about the child (see "Cloud save").
 - **Selfies stay on the device**, as for everyone (see above), and no face data is ever stored. A child can save a selfie, but the game shows no "Share" or "Instagram Stories" button for it, and no link to the game's Instagram page.
 - **Nothing is shared from the game.** On phones and tablets (Android, iPhone and iPad), a child gets no "Share" or "Challenge a friend" buttons (score cards, new kangaroos, quokka postcards), so no picture or typed name leaves the game from a child. A child can still invite a friend to a race room: that shares only the room's code and link, with no name. On iPhone and iPad, "Report an ad" is in Settings for every player (see Ads); it opens the device's own email app and nothing is sent unless the email is sent from there.
+- **Anonymous totals are the same for everyone.** The race and game totals (see above) carry nothing about the player, so a child's play adds to them exactly as anyone else's does.
 - We don't knowingly collect personal information from children, and we don't ask for any.
 
 For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads, and on iPhone and iPad they are never asked for permission to track. Everything else works as for players 13 and over.
@@ -103,7 +113,7 @@ Parents and guardians: if you have a question, or think your child's information
 
 ## How long information is kept
 
-Apart from race messages, which are kept only while a room is open, the anonymous race totals (which contain nothing about anyone, see above), and reports you choose to email us (about a name or an ad), which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
+Apart from race messages, which are kept only while a room is open, the anonymous race and game totals (which contain nothing about anyone, see above), and reports you choose to email us (about a name or an ad), which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention).
 
 ## Legal bases (EEA, UK and Switzerland)
 
