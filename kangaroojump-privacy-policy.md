@@ -1,6 +1,6 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: RELEASE DATE, 2026
+Last updated: November 11, 2026
 
 Kangaroo Jump is a game for Wear OS watches and Apple Watch, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
@@ -125,7 +125,17 @@ Because we don't keep personal information about you (apart from a report you em
 
 ## Changes
 
-If this policy changes, the new version will be posted here with a new "Last updated" date.
+If this policy changes, the new version will be posted here with a new "Last updated" date. This one policy covers every version of the apps: where something applies only from a certain app version, it says so below. If a change ever meant collecting personal information we don't collect today, we would tell you in the app before it took effect.
+
+What changed, newest first (each date links to the full text as it was then):
+
+- **November 11, 2026** (phone and tablet apps 1.4.0): anonymous daily game totals (app opened, levels started, won, lost or left, how smoothly races and levels played, players who raced today), the app's version number on the race totals, and the sanctuary in the cloud save list. Apps before 1.4.0 don't send the game totals.
+- [**October 31, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/0bfd126/kangaroojump-privacy-policy.md): Apple Watch, "Report an ad" on iPhone and iPad, campfire reminders, the room QR scanner, the cloud save list in full.
+- [**October 27, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/342204d/kangaroojump-privacy-policy.md): anonymous daily race totals.
+- [**October 25, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/b20d22c/kangaroojump-privacy-policy.md): optional cloud save (Google Play Games, iCloud).
+- [**October 22, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/f9f2812/kangaroojump-privacy-policy.md): online races, the age question and children's ads, rude-name reports, legal bases and your rights.
+- [**October 11, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/50d9ee8/kangaroojump-privacy-policy.md): iPhone and iPad, App Tracking Transparency, sharing and challenge links, the camera.
+- Every earlier wording: [the full history](https://github.com/matanyaasis288/kangaroojump-privacy-policy/commits/main/kangaroojump-privacy-policy.md).
 
 ## Contact
 
