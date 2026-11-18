@@ -1,10 +1,10 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: November 14, 2026
+Last updated: November 19, 2026
 
 Kangaroo Jump is a game for Wear OS watches and Apple Watch, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
-The short version: the **watch apps** (Wear OS and Apple Watch) collect nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. On iPhone and iPad, for players 16 and over, Meta's SDK also counts installs from our own ads on Facebook and Instagram (see below). If you race friends online, your race name and moves pass through our game server while the race runs and are not kept; the server only adds to anonymous daily totals (like "rooms made today") that can't be traced to anyone. The phone and tablet apps also add to anonymous daily totals of how the game is played (like "level 12 started today"), with nothing that can be traced to anyone either. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
+The short version: the **watch apps** (Wear OS and Apple Watch) collect nothing. The **phone and tablet apps** (Android, iPhone and iPad) are free and show ads from Google AdMob, and Google collects some device data to show and measure those ads. On iPhone and iPad, for players 16 and over, Meta's SDK also counts installs from our own ads on Facebook and Instagram, and Tenjin's SDK counts installs from our own ads shown inside other apps and games (see below). If you race friends online, your race name and moves pass through our game server while the race runs and are not kept; the server only adds to anonymous daily totals (like "rooms made today") that can't be traced to anyone. The phone and tablet apps also add to anonymous daily totals of how the game is played (like "level 12 started today"), with nothing that can be traced to anyone either. If you choose to report a rude race name, the report reaches us as an email you send yourself. If you use Google Play Games (Android) or iCloud (iPhone and iPad), a copy of your game progress is kept there under your own account, so you can carry on from another phone or tablet; we can't see it. We don't keep any other personal information.
 
 ## All versions
 
@@ -88,19 +88,29 @@ Google handles this information as described in "How Google uses information fro
 **Your choices**
 
 - Where the law requires it (for example in the European Economic Area, the UK and Switzerland), the app asks for your consent before any ad is requested. You can change your choice at any time from "Privacy settings" in the app.
-- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads, and Meta's install count (see below) gets no advertising ID. You can change this anytime in Settings > Privacy & Security > Tracking. Players under 16 are never asked (see Children).
+- On iPhone and iPad, the app asks for permission to track (Apple's App Tracking Transparency) before any personalized ads; if you choose "Ask App Not to Track", you only see non-personalized ads, and the install counts for our own ads (Meta's and Tenjin's, see below) get no advertising ID. You can change this anytime in Settings > Privacy & Security > Tracking. Players under 16 are never asked (see Children).
 - On Android, you can reset or delete your advertising ID, or opt out of personalized ads, in your phone's settings (Settings > Privacy > Ads, or Settings > Google > Ads, depending on your phone).
 - The one-time "Remove ads" purchase turns off the banners and the ads between levels.
 - On iPhone and iPad, "Report an ad" in Settings opens your own email app with a message to matanya.asis288@gmail.com. Nothing is sent unless you send that email yourself. If you send it, we receive the email, so also your email address and whatever you wrote. We use it only to deal with that ad, and we delete it once we have.
 
 ## iPhone and iPad: counting installs from our own ads (version 1.4.1 and later)
 
-We sometimes advertise Kangaroo Jump on Facebook and Instagram. To know whether those ads work, the iPhone and iPad app includes Meta's SDK (Meta Platforms, Inc.), used for one thing only: telling Meta that the app was opened, which Meta counts as an install when it's the first time on that device. No other information about how you play is sent, and there is no Facebook sign-in.
+We sometimes advertise Kangaroo Jump on Facebook and Instagram, and (from version 1.4.2) inside other apps and games through AppLovin. To know whether those ads work, the iPhone and iPad app counts the installs they bring, with nothing else: no information about how you play is sent, there is no sign-in, and nothing here changes which ads you see in Kangaroo Jump.
+
+**Meta (version 1.4.1 and later).** The app includes Meta's SDK (Meta Platforms, Inc.), used for one thing only: telling Meta that the app was opened, which Meta counts as an install when it's the first time on that device.
 
 - **Who:** only players 16 and over, after the first-launch welcome, and only after they have answered Apple's tracking question. Players under 16 never have it turned on. Where the law requires consent first (for example in the European Economic Area, the UK and Switzerland), it isn't turned on at all.
 - **What Meta receives:** that the app was opened, the time, the app's version, basic device information (model and iOS version), and your IP address. If you allowed tracking, also your device's advertising ID. If you chose "Ask App Not to Track", the advertising ID is not sent, and Meta only counts installs through Apple's privacy-preserving SKAdNetwork and Meta's Aggregated Event Measurement.
 - **What it's used for:** measuring how many people installed the game after seeing one of our ads, so we can tell which ads are worth running. Meta handles this information as described in Meta's Privacy Policy (https://www.facebook.com/privacy/policy) and may use it as described there. We see only totals in Meta's ads tools, never information about you.
 - **Your choices:** you can change the tracking permission at any time in Settings > Privacy & Security > Tracking.
+
+**Tenjin, for our ads inside other apps and games (version 1.4.2 and later).** Ads shown inside other apps and games through AppLovin (AppLovin Corporation) need a measurement service in the advertised app to count installs. For this the iPhone and iPad app includes Tenjin's SDK (Tenjin, Inc.), used for one thing only: telling Tenjin that the app was opened, which Tenjin counts as an install when it's the first time on that device. No in-app events, purchases, names or other information about how you play are sent.
+
+- **Who:** exactly the same players as Meta's install count above: only players 16 and over, after the first-launch welcome, and only after they have answered Apple's tracking question. Players under 16 never have it turned on, and where the law requires consent first (for example in the European Economic Area, the UK and Switzerland), it isn't turned on at all.
+- **What Tenjin receives:** that the app was opened, the time, the app's version, basic device information (model, iOS version, language, country and time zone settings), your IP address, and the identifier Apple gives our app on your device (the IDFV, which only our apps can use). If you allowed tracking, also your device's advertising ID.
+- **Who else:** when an install came from one of our ads, Tenjin tells the ad network that showed it (AppLovin) that the install happened, with the advertising ID only if you allowed tracking, so AppLovin can count and improve that campaign. If you chose "Ask App Not to Track", AppLovin counts installs through Apple's privacy-preserving SKAdNetwork instead, and Apple also sends Tenjin a copy of those SKAdNetwork reports, which carry no identifier and nothing about you.
+- **What it's used for:** measuring how many people installed the game after seeing one of our ads, so we can tell which ads are worth running. Tenjin handles this information for us as our service provider, as described in its Privacy Policy (https://tenjin.com/privacy-policy/), and AppLovin as described in its Privacy Policy (https://www.applovin.com/privacy). We see only totals in their tools, never information about you.
+- **Your choices:** the same tracking permission (Settings > Privacy & Security > Tracking). To ask about or delete what Tenjin holds about your device, email us and we'll pass the request to Tenjin.
 
 ## Children
 
@@ -116,13 +126,13 @@ For players under 13 (and for anyone who hasn't answered yet):
 - **Anonymous totals are the same for everyone.** The race and game totals (see above) carry nothing about the player, so a child's play adds to them exactly as anyone else's does.
 - We don't knowingly collect personal information from children, and we don't ask for any.
 
-For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads, and on iPhone and iPad they are never asked for permission to track. Meta's SDK (see above) is never turned on for anyone under 16. Everything else works as for players 13 and over.
+For players 13 to 15 (and anyone under 16): some countries, for example in the European Union, set the age for consenting to online services as high as 16. So every ad request is also marked as under the age of consent: the consent form isn't shown, Google AdMob serves only non-personalized ads, and on iPhone and iPad they are never asked for permission to track. Meta's and Tenjin's SDKs (see above) are never turned on for anyone under 16. Everything else works as for players 13 and over.
 
 Parents and guardians: if you have a question, or think your child's information was shared, email matanya.asis288@gmail.com and we'll help.
 
 ## How long information is kept
 
-Apart from race messages, which are kept only while a room is open, the anonymous race and game totals (which contain nothing about anyone, see above), and reports you choose to email us (about a name or an ad), which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention). Information Meta receives is kept as described in Meta's Privacy Policy.
+Apart from race messages, which are kept only while a room is open, the anonymous race and game totals (which contain nothing about anyone, see above), and reports you choose to email us (about a name or an ad), which we delete once we've dealt with them (see above), we don't collect or keep any of your personal information. Your game progress, settings and any saved selfies stay on your device until you delete them or uninstall the app. A cloud copy of your progress in Google Play Games or iCloud stays there until you delete it (see "Cloud save"). Information Google collects through ads is kept as described in the Google Privacy Policy (https://policies.google.com/technologies/retention). Information Meta, Tenjin or AppLovin receive is kept as described in their privacy policies (see above).
 
 ## Legal bases (EEA, UK and Switzerland)
 
@@ -130,7 +140,7 @@ We pass race messages because you asked to race, and keep a cloud copy of your p
 
 ## Your rights
 
-Because we don't keep personal information about you (apart from a report you emailed us, until we've dealt with it), there is normally nothing for us to access, correct or delete. To ask about or delete a report you sent, email us from the same address. You can still contact us about any privacy question, and if you are in the EEA, UK or Switzerland you can also complain to your local data protection authority. Your cloud save is in your own Google Play Games or iCloud account, where you can delete it yourself (see "Cloud save"). For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy; for what Meta receives (see above), the choices and rights described in Meta's Privacy Policy.
+Because we don't keep personal information about you (apart from a report you emailed us, until we've dealt with it), there is normally nothing for us to access, correct or delete. To ask about or delete a report you sent, email us from the same address. You can still contact us about any privacy question, and if you are in the EEA, UK or Switzerland you can also complain to your local data protection authority. Your cloud save is in your own Google Play Games or iCloud account, where you can delete it yourself (see "Cloud save"). For information Google collects through ads, you can use Google's controls at https://myadcenter.google.com and the rights described in the Google Privacy Policy; for what Meta, Tenjin or AppLovin receive (see above), the choices and rights described in their privacy policies.
 
 ## Changes
 
@@ -138,7 +148,8 @@ If this policy changes, the new version will be posted here with a new "Last upd
 
 What changed, newest first (each date links to the full text as it was then):
 
-- **November 14, 2026** (iPhone and iPad 1.4.1): counting installs from our own ads with Meta's SDK, for players 16 and over only.
+- **November 19, 2026** (iPhone and iPad 1.4.2): counting installs from our own ads inside other apps and games (AppLovin) with Tenjin's SDK, for players 16 and over only, never where consent is due.
+- [**November 14, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/8e74769/kangaroojump-privacy-policy.md) (iPhone and iPad 1.4.1): counting installs from our own ads with Meta's SDK, for players 16 and over only.
 - [**November 11, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/e8c6a04/kangaroojump-privacy-policy.md) (phone and tablet apps 1.4.0): anonymous daily game totals (app opened, levels started, won, lost or left, how smoothly races and levels played, players who raced today), the app's version number on the race totals, and the sanctuary in the cloud save list. Apps before 1.4.0 don't send the game totals.
 - [**October 31, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/0bfd126/kangaroojump-privacy-policy.md): Apple Watch, "Report an ad" on iPhone and iPad, campfire reminders, the room QR scanner, the cloud save list in full.
 - [**October 27, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/342204d/kangaroojump-privacy-policy.md): anonymous daily race totals.
