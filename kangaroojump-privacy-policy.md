@@ -1,6 +1,6 @@
 # Kangaroo Jump: Privacy Policy
 
-Last updated: November 19, 2026
+Last updated: November 21, 2026
 
 Kangaroo Jump is a game for Wear OS watches and Apple Watch, Android phones and tablets, and iPhone and iPad, made by Matanya Asis, trading as As Is ("we", "us"). We are responsible for the information described here. Contact: matanya.asis288@gmail.com. This policy explains what each version does with your information.
 
@@ -114,7 +114,7 @@ We sometimes advertise Kangaroo Jump on Facebook and Instagram, and (from versio
 
 ## Children
 
-Kangaroo Jump is made for everyone, children included. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over and whether you are 16 or over, on your device, and asks again a year later for anyone under 13.
+The Kangaroo Jump phone and tablet apps are meant for players 13 and over. Because younger children may still play, the game protects them as children. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over and whether you are 16 or over, on your device, and asks again a year later for anyone under 13.
 
 For players under 13 (and for anyone who hasn't answered yet):
 
