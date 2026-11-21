@@ -114,9 +114,9 @@ We sometimes advertise Kangaroo Jump on Facebook and Instagram, and (from versio
 
 ## Children
 
-Kangaroo Jump is made for everyone, children included. On phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over and whether you are 16 or over, on your device, and asks again a year later for anyone under 13.
+Kangaroo Jump is meant for players 13 and over. It isn't made for children under 13, and on Google Play its audience is 13 and over. Because a younger child could still get the game, it keeps the protections below for anyone under 13: on phones and tablets (Android, iPhone and iPad) the game asks once, on first launch, "What year were you born?". The answer is never sent anywhere: the app keeps only whether you are 13 or over and whether you are 16 or over, on your device, and asks again a year later for anyone under 13.
 
-For players under 13 (and for anyone who hasn't answered yet):
+For anyone under 13 (and anyone who hasn't answered yet):
 
 - **Ads are child-directed.** Every ad request is marked as directed to a child and under the age of consent, so Google AdMob serves only non-personalized ads rated for general audiences (G), and doesn't use the device to build an advertising profile, as described in Google's policies for child-directed requests (https://support.google.com/admob/answer/6223431). On iPhone and iPad they are never asked for permission to track. On phones and tablets (Android, iPhone and iPad), a child's full-screen ads between levels are never video ads (only text, image or simple display ads), shown only after a level they won and at most once every five minutes, and a child is never offered an ad to continue a level.
 - **No typed names online.** In online races, a child races under a name the game picks; they can't type a name of their own, so nothing a child writes is shared with other players. A child can hide another player's name, but the game never opens an email from a child to report it.
@@ -148,7 +148,7 @@ If this policy changes, the new version will be posted here with a new "Last upd
 
 What changed, newest first (each date links to the full text as it was then):
 
-- **November 21, 2026** (Android 1.4.3): counting installs from our own ads inside other apps and games (AppLovin) with Tenjin's SDK on Android too, for players 16 and over only, never where consent is due.
+- **November 21, 2026** (Android 1.4.3): the game is meant for players 13 and over (the protections for anyone younger stay); counting installs from our own ads inside other apps and games (AppLovin) with Tenjin's SDK on Android too, for players 16 and over only, never where consent is due.
 - [**November 19, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/c2c3e56/kangaroojump-privacy-policy.md) (Android 1.4.2): counting installs from our own Facebook and Instagram ads with Meta's SDK on Android too, for players 16 and over only, never where consent is due.
 - [**November 19, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/0dcb550/kangaroojump-privacy-policy.md) (iPhone and iPad 1.4.2): counting installs from our own ads inside other apps and games (AppLovin) with Tenjin's SDK, for players 16 and over only, never where consent is due.
 - [**November 14, 2026**](https://github.com/matanyaasis288/kangaroojump-privacy-policy/blob/8e74769/kangaroojump-privacy-policy.md) (iPhone and iPad 1.4.1): counting installs from our own ads with Meta's SDK, for players 16 and over only.
